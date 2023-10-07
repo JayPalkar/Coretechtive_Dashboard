@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Montserrat";
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0% 3%;
+    justify-content: center;
+    text-align: center;
+    
+}
+p{
+    font-family: 'poppins';
+    font-size: 30px;
+    color: white;
+}
+
+.navbar-brand{
+    font-family: 'poppins';
+    background-color: white;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.navbar-brand:hover{
+    color: rgb(114, 113, 113);
+}
+
+#logo{
+    width: 250px;
+}
+
+#Dashboard{
+    margin-top: 15px;
+    padding: 0% 3%;
+    text-align: center;
+}
+
+#Dashboard h1{
+    font-family: "Poppins";
+    color: white;
+    display: inline-block;
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+button{
+    padding: 5%;
+    width: 50%;
+    border-radius: 15px;
+    margin: 5px;
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+#ScoreSheet{
+    margin-bottom: 5px;
+    padding: 20px;
+    border: 2px solid #000000;
+    background-color: rgba(58, 59, 59, .5);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 3px 15px white;
+    border-radius: 15px;
+}
+
+#TotalRegistered{
+    margin-top: 5px;
+    padding: 20px;
+    border: 2px solid #000000;
+    background-color: rgba(58, 59, 59, .5);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 3px 15px white;
+    border-radius: 15px;
+}
+
+#regi{
+    display: inline-block;
+    border-radius: 100%;
+    background-color: rgb(243, 243, 146);
+    padding: 25px;
+}
+
+#Result{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #000000;
+    background-color: rgba(58, 59, 59, .5);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 3px 15px white;
+    border-radius: 15px;
+}
+
+
